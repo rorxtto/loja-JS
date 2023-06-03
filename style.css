@@ -1,0 +1,56 @@
+body{
+    font: normal 15px Arial;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#sessao-venda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#itens_section{
+    display: flex;
+}
+
+#box{
+    border: 4px solid rgb(96, 155, 96);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+    display: flex;
+    width: 250px;
+    height: 400px;
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+}
+
+#paragrafo{
+    text-align: start;
+    padding-left: 1vw;
+}
+
+#descricao{
+    font-weight: bold;
+}
+
+#section2{
+    display: flex;
+}
+
+#txtPreco{
+    display: flex;
+}
+
+#preco{
+    font-weight: bold;
+}
